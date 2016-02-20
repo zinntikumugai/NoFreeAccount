@@ -14,6 +14,7 @@ public class NoFreeAccount extends Plugin {
 	//プラグイン読み込み
 	@Override
 	public void onEnable() {
+		getProxy().getPluginManager().registerListener(this, new NoFreeAccountListener());
 		getLogger().info("load!!");
 	}
 }
