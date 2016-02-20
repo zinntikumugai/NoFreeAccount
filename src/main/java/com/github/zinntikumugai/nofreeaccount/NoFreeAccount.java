@@ -14,6 +14,6 @@ public class NoFreeAccount extends Plugin {
 	//プラグイン読み込み
 	@Override
 	public void onEnable() {
-		getLogger().info("load!");
+		getLogger().info("load!!");
 	}
 }
